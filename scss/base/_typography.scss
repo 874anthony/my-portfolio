@@ -1,0 +1,34 @@
+.heading-primary {
+  font-size: $font-size-xl-2;
+  font-weight: 700;
+  letter-spacing: $letter-spacing-sm;
+  color: $color-white-light;
+}
+
+.heading-primary,
+.heading-secondary {
+  & span {
+    color: $color-accent-primary;
+  }
+}
+
+.heading-secondary {
+  font-size: $font-size-xl-1;
+  font-weight: 700;
+  letter-spacing: $letter-spacing-xss;
+  color: #333333;
+}
+
+// Section hero headings
+.section-hero {
+  &__box {
+    width: 70%;
+  }
+
+  &__subheading {
+    font-size: $font-size-md-4;
+    font-weight: 600;
+    color: $color-white-light;
+    letter-spacing: $letter-spacing-xss;
+  }
+}

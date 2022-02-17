@@ -1,0 +1,62 @@
+// Colors that will be used in the app:
+// - Black as main color
+// - Red as accent color
+// - Some gray as greys color
+
+// Color palette
+$color-primary: #000;
+$color-primary-light: #434343;
+
+$color-links: #64d7de;
+
+$color-accent-primary: #dc2626;
+$color-accent-light: #ef4444;
+
+$color-white: #fff;
+$color-white-light: #e6e6e6;
+
+// Fonts used
+$font-family: "Roboto", sans-serif;
+
+// Font system // will be removing
+$font-size-xxs: 1rem;
+$font-size-xs-1: 1.2rem;
+$font-size-xs-2: 1.6rem;
+$font-size-md-1: 1.8rem;
+$font-size-md-2: 2rem;
+$font-size-md-3: 2.4rem;
+$font-size-md-4: 3.2rem;
+$font-size-lg-1: 4rem;
+$font-size-lg-2: 4.8rem;
+$font-size-lg-3: 5.4rem;
+$font-size-xl-1: 6rem;
+$font-size-xl-2: 7.4rem;
+
+// Space system / Will be removing
+$space-xxs: 0.4rem;
+$space-xs: 0.8rem;
+$space-sm-1: 1.2rem;
+$space-sm-2: 1.8rem;
+$space-md-1: 2.4rem;
+$space-md-2: 3.2rem;
+$space-md-3: 4rem;
+$space-md-4: 4.8rem;
+$space-lg-1: 5.2rem;
+$space-lg-2: 6.4rem;
+$space-lg-3: 7.2rem;
+$space-xl-1: 8rem;
+$space-xl-2: 8.6rem;
+$space-xxl-1: 9.4rem;
+$space-xxl-2: 12rem;
+
+// Letter spacings
+$letter-spacing-xss: -0.5px;
+$letter-spacing-xs: -1.5px;
+$letter-spacing-sm: -2px;
+
+// Shadows
+$box-shadow-normal: 0 0.5rem 2rem
+  rgba(
+    $color: $color-primary,
+    $alpha: 0.5,
+  );

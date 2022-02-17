@@ -1,0 +1,77 @@
+.header {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $space-sm-2 $space-md-4 $space-sm-2 $space-md-4;
+    background-color: $color-primary;
+  }
+
+  &__logo {
+    // text-transform: uppercase;
+    text-decoration: none;
+    font-size: $font-size-md-3;
+    font-weight: 600;
+    font-style: italic;
+    color: $color-white-light;
+  }
+
+  &__nav {
+    &--button {
+      background: none;
+      border: none;
+      width: $space-md-3;
+      height: $space-md-3;
+      cursor: pointer;
+    }
+
+    &--icon {
+      color: $color-white-light;
+      height: $space-md-3;
+      width: $space-md-3;
+    }
+  }
+}
+
+.section-hero {
+  max-width: 151.9rem;
+  height: 90vh;
+  padding: $space-xl-2 $space-md-4 $space-md-4 $space-md-4;
+
+  background-image: linear-gradient(
+    to bottom,
+    $color-primary,
+    $color-primary-light
+  );
+
+  &__box {
+    text-align: center;
+  }
+
+  &__text {
+    font-size: $font-size-xs-2;
+    font-weight: 600;
+    color: #b3b3b3;
+    letter-spacing: -0.2px;
+
+    &--link {
+      text-decoration: none;
+      color: $color-links;
+      transition: all 0.1s;
+    }
+
+    &--link:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.section-about {
+  max-width: 151.9rem;
+  padding: $space-xxl-1;
+  background-color: #f9fafb;
+
+  &__image img {
+    width: 100%;
+  }
+}

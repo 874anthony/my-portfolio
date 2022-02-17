@@ -1,0 +1,19 @@
+.container {
+  max-width: 120rem;
+  padding: 0 $space-md-2;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: $space-lg-2;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+// Other grids
+.grid--about {
+  grid-template-columns: 45fr 55fr;
+}

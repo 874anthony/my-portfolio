@@ -1,0 +1,28 @@
+.btn {
+  font-size: $font-size-md-2;
+  font-weight: 600;
+  color: $color-white-light;
+  background-color: $color-accent-light;
+  padding: $space-sm-2 $space-md-2;
+  border: none;
+  border-radius: 11px;
+  cursor: pointer;
+  font-family: inherit;
+  box-shadow: $box-shadow-normal;
+  transition: all 0.2s;
+
+  // &--primary {
+  // }
+
+  &--icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    color: $color-white-light;
+  }
+}
+
+.btn {
+  &:hover {
+    background-color: $color-accent-primary;
+  }
+}
