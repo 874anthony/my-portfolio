@@ -19,6 +19,19 @@
   color: #333333;
 }
 
+.subheading {
+  font-size: $font-size-md-1;
+  margin: 0 0 $space-md-1;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $color-grey-dark-2;
+
+  &--white {
+    color: $color-white-light;
+  }
+}
+
 // Section hero headings
 .section-hero {
   &__box {

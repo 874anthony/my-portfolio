@@ -15,5 +15,6 @@
 
 // Other grids
 .grid--about {
-  grid-template-columns: 45fr 55fr;
+  grid-template-columns: 1fr 2fr;
+  gap: $space-xl-1;
 }

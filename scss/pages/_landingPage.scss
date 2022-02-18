@@ -37,6 +37,7 @@
   max-width: 151.9rem;
   height: 90vh;
   padding: $space-xl-2 $space-md-4 $space-md-4 $space-md-4;
+  margin-bottom: $space-md-4;
 
   background-image: linear-gradient(
     to bottom,
@@ -73,5 +74,46 @@
 
   &__image img {
     width: 100%;
+    border-radius: 11px;
   }
+
+  &__text {
+    font-size: $font-size-md-3;
+    font-weight: 400;
+    line-height: 2;
+    // color: $color-primary;
+    color: $color-grey-dark;
+
+    &:not(:last-child) {
+      margin: 0 0 $space-sm-1;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: $space-sm-1;
+  }
+
+  &__skills {
+    margin-top: $space-md-2;
+  }
+
+  &__list-items {
+    font-size: $font-size-md-1;
+    font-weight: 600;
+    color: currentColor;
+
+    &--icons {
+      color: $color-accent-light;
+    }
+  }
+}
+
+.section-projects {
+  max-width: 151.9rem;
+  padding: $space-xxl-1;
+  background-color: $color-accent-light;
 }

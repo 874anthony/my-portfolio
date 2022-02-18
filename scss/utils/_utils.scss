@@ -1,15 +1,26 @@
-.margin-bottom-md-1 {
-  margin-bottom: $space-md-1;
+// Small
+.margin-bottom-sm-2 {
+  margin-bottom: $space-sm-2 !important;
 }
 
-.margin-bottom-sm-2 {
-  margin-bottom: $space-sm-2;
+// Medium
+.margin-bottom-md-1 {
+  margin-bottom: $space-md-1 !important;
 }
 
 .margin-bottom-md-2 {
-  margin-bottom: $space-md-2;
+  margin-bottom: $space-md-2 !important;
 }
 
+.margin-bottom-md-3 {
+  margin-bottom: $space-md-3 !important;
+}
+
+.margin-bottom-md-4 {
+  margin-bottom: $space-md-4 !important;
+}
+
+// Large
 .margin-bottom-lg-1 {
-  margin-bottom: $space-lg-1;
+  margin-bottom: $space-lg-1 !important;
 }
